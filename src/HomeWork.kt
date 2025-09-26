@@ -51,5 +51,22 @@ fun main(){
 //            ' ' -> println("'$a' - это пробел")
 //            else -> println("'$a' - это спецсимвол")
 //        }
+    //5
+//        val number = 5
+//        var a = 1
+//        repeat(10) {
+//            val result = number * a
+//            println("5 x $a = $result")
+//            a++
+//        }
+    //6
+
+//        val favorite = listOf("Один дома", "Легенда", "Сумерки", "Тор", "Дневник памяти")
+//        println("Мои любимые фильмы:")
+//        for (movie in favorite) {
+//            println("• $movie (длина: ${movie.length} символов)")
+//        }
     }
+
+
 
