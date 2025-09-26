@@ -1,4 +1,4 @@
-fun main(){
+fun main() {
     //1
 //    print("Введите ваш уровень: ")
 //    val num=readln().toInt()
@@ -66,7 +66,17 @@ fun main(){
 //        for (movie in favorite) {
 //            println("• $movie (длина: ${movie.length} символов)")
 //        }
-    }
+    //7
+//    print("Как тебя зовут? ")
+//    val name = readln()
+//
+//    print("Сколько тебе лет? ")
+//    val age = readln().toInt()
+//    print("Какой твой любимый цвет? ")
+//    val color = readln()
+//    println("Привет, $name! Тебе $age год, и ты любишь $color.")
+//}
+}
 
 
 
