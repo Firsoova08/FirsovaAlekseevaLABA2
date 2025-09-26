@@ -21,15 +21,24 @@ fun main(){
 //println("$status! Вы получаете +$bonus HP")
 
     //2
-    print("Введите ваш возраст: ")
-   val age=readln().toInt()
-    if (age<12){
-        println("Вы ребенок")
+//    print("Введите ваш возраст: ")
+//   val age=readln().toInt()
+//    if (age<12){
+//        println("Вы ребенок")
+//    }
+//    else if (age<=17){
+//        println("Вы подросток")
+//    }
+//    else{
+//        println("Вы взрослый")
+//    }
+    //3
+        print("Введите число от 1 до 100: ")
+        val number = readln().toInt()
+
+        if (number in 10..50) {
+            println("Число $number входит в диапазон от 10 до 50")
+        } else {
+            println("Число $number НЕ входит в диапазон от 10 до 50")
+        }
     }
-    else if (age<=17){
-        println("Вы подросток")
-    }
-    else{
-        println("Вы взрослый")
-    }
-}
